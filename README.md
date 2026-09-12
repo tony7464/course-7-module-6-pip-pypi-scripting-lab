@@ -20,6 +20,21 @@ In this lab, you will build a **Python automation tool** that uses pip-installed
 
 This lab emphasizes automation, scripting practices, and environment management using the standard Python ecosystem.
 
+## Run the Project
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python generate_log.py
+```
+
+This fetches a sample post from a public API and writes a dated log file (`log_YYYYMMDD.txt`).
+
+```bash
+pytest
+```
+
 ## Setup Instructions
 
 ### Fork and Clone the Repository
